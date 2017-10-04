@@ -38,26 +38,6 @@ class App extends Component {
         alert('A name was submitted: ' + this.state.value);
         event.preventDefault();
     }
-    componentWillMount(){
-        /* var self = this;
-         const statusURL = `http://localhost:8080/getStatus?score= ${this.state.value}`;
-         /!*`http://localhost:8080/vehicles/find/${score}`*!/
-
-             axios.get(statusURL)
-                 .then(function (response) {
-                     if (response.data) {
-                         self.setState({
-                             vehicleList: response.data
-                         })
-                     }
-                 })
-                 .catch(function (error) {
-                     console.log(error);
-                 });*/
-
-
-    }
-
 
     render() {
         return (
