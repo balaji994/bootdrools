@@ -3,6 +3,7 @@
 target/
 pom.xml
 bootdrools.iml
+.idea
 
 pom.xml.releaseBackup
 pom.xml.versionsBackup
