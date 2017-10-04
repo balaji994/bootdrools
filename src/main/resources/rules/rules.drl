@@ -1,0 +1,16 @@
+package rules
+
+import project.model.CreditScore;
+
+rule "Credit Check 500"
+	when
+		csObject: CreditScore(cScore < 649)
+	then
+		csObject.setMessage("Sorry ! Application Rejected");
+	end
+rule "Credit check 650"
+	when
+		csObject: CreditScore(cScore > 650)
+	then
+		csObject.setMessage("Congratulations! Application Approved");
+	end
