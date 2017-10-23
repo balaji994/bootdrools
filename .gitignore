@@ -1,8 +1,6 @@
 
 
 target/
-pom.xml
-bootdrools.iml
 .idea
 /src/test
 
